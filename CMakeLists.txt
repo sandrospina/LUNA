@@ -8,6 +8,6 @@ set(CMAKE_MODULE_PATH "/Users/sandrospina/ClionProjects/LUNA/cmake/;${CMAKE_MODU
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp device.cpp entity.cpp)
 add_executable(LUNA ${SOURCE_FILES})
 target_link_libraries(LUNA ${SDL2_LIBRARY})
