@@ -9,6 +9,7 @@ int main() {
     Device dev(320,200);
     if (dev.Initialise() == 1) SDL_Quit();
 
+
     //Load BMP
     std::string imagePath = "/Users/sandrospina/ClionProjects/LUNA/images/moon-clouds.bmp";
     SDL_Surface *bmp = SDL_LoadBMP(imagePath.c_str());

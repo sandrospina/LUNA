@@ -12,6 +12,6 @@ find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIR})
 include_directories(${BOX2D_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp device.cpp entity.cpp)
+set(SOURCE_FILES main.cpp device.cpp entity.cpp stringify.cpp filemanager.cpp bglayer.cpp)
 add_executable(LUNA ${SOURCE_FILES})
 target_link_libraries(LUNA ${SDL2_LIBRARY} ${BOX2D_LIBRARY})

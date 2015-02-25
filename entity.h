@@ -9,5 +9,6 @@ class Entity
         b2PolygonShape bodyShape;
         b2FixtureDef fixtureDef;
 
+
         Entity(int p_id, float p_posX, float p_posY, float p_angle);
 };
